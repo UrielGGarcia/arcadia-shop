@@ -80,7 +80,7 @@
         ],
         "tipo": "Deportiva",
         "color": ["Negra", "Blanco"],
-        "talla": "MG"
+        "talla": "M"
     },
     {
         "id": 8,
@@ -130,7 +130,7 @@
     {
         "id": 12,
         "name": "Pantalón negro acampanado",
-        "price": 220,
+        "price": 380,
         "images": [
             "/assets/pantalon_negro0.png",
             "/assets/pantalon_negro.png",

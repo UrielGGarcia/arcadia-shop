@@ -51,7 +51,7 @@ export const Home: React.FC = () => {
                     </button>
                     {ishacer &&
                         <section className="text-left text-lg hidden md:block lg:block">
-                            Para hacer tu pedido, ofrecemos la experiencia de explorar nuestro catalogo, puedes agregar al carrito y hacer tu pedido directamente desde el catalógo
+                            Para hacer tu pedido, ofrecemos la experiencia de explorar nuestro catálogo, puedes agregar al carrito y hacer tu pedido directamente desde el catálogo
                         </section>
                     }
                 </div>
