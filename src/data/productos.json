@@ -1,0 +1,237 @@
+[
+    {
+        "id": 1,
+        "name": "Falda de talones color gris",
+        "price": 220,
+        "images": [
+            "src/assets/faldagris.png",
+            "src/assets/faldagris2.png"
+        ],
+        "tipo": "Casual",
+        "color": [
+            "Gris"
+        ],
+        "talla": "XS/S"
+    },
+    {
+        "id": 2,
+        "name": "Chamarra de tela suave",
+        "price": 420,
+        "images": [
+            "src/assets/chamarra_suave_crema.png",
+            "src/assets/chamarra_suave_crema2.png",
+            "src/assets/chamarra_suave_blnca.png"
+        ],
+        "tipo": "Invierno",
+        "color": [
+            "Crema",
+            "Blanco"
+        ],
+        "talla": "S"
+    },
+    {
+        "id": 3,
+        "name": "Chamarra lisa con felpa",
+        "price": 420,
+        "images": [
+            "src/assets/chamarra_lisa_negra.jpeg",
+            "src/assets/chamarra_lisa_negra2.jpeg"
+        ],
+        "tipo": "Invierno",
+        "color": [
+            "Negro"
+        ],
+        "talla": "S"
+    },
+    {
+        "id": 4,
+        "name": "Chamarra lisa",
+        "price": 400,
+        "images": [
+            "src/assets/chamarra_lisa_blanca.png",
+            "src/assets/chamarra_lisa_crema.png"
+        ],
+        "prenda": "Invierno",
+        "color": [
+            "Blanco",
+            "Crema"
+        ],
+        "talla": "S"
+    },
+    {
+        "id": 5,
+        "name": "Sudadera deportiva",
+        "price": 280,
+        "images": [
+            "src/assets/sudadera_alo_negra.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Negro"
+        ],
+        "talla": "S"
+    },
+    {
+        "id": 6,
+        "name": "Falda deportiva",
+        "price": 230,
+        "images": [
+            "src/assets/falda_alo_azul_mg.png",
+            "src/assets/falda_alo_blanca_mg.png",
+            "src/assets/falda_alo_rosa_ch.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Azul marino",
+            "Palo de rosa",
+            "Blanco"
+        ],
+        "talla": "S"
+    },
+    {
+        "id": 7,
+        "name": "Falda deportiva",
+        "price": 230,
+        "images": [
+            "src/assets/falda_alo_negra_ch.png",
+            "src/assets/falda_alo_blanca_mg.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Negra",
+            "Blanco"
+        ],
+        "talla": "MG"
+    },
+    {
+        "id": 8,
+        "name": "Blusa deportiva",
+        "price": 150,
+        "images": [
+            "src/assets/blusa_deportiva_lila.png",
+            "src/assets/blusa_deportiva_azul.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Lila claro",
+            "Azul claro"
+        ],
+        "talla": "S"
+    },
+    {
+        "id": 9,
+        "name": "Blusa deportiva",
+        "price": 150,
+        "images": [
+            "src/assets/blusa_deportiva_rosa.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Rosa"
+        ],
+        "talla": "MG"
+    },
+    {
+        "id": 10,
+        "name": "Chaleco puffer color negro",
+        "price": 200,
+        "images": [
+            "src/assets/chaleco_negro.png",
+            "src/assets/chaleco_negro2.png"
+        ],
+        "tipo": "Casual",
+        "color": [
+            "Negro"
+        ],
+        "talla": "S"
+    },
+    {
+        "id": 11,
+        "name": "Suéter delgado",
+        "price": 220,
+        "images": [
+            "src/assets/sueter_rayado_negro_blanco.png",
+            "src/assets/sueter_rayado_cafe_blanco.png"
+        ],
+        "tipo": "Casual",
+        "color": [
+            "Negro/Blanco",
+            "Café/Blanco"
+        ],
+        "talla": "S"
+    },
+    {
+        "id": 12,
+        "name": "Pantalón negro acampanado",
+        "price": 220,
+        "images": [
+            "src/assets/pantalon_negro0.png",
+            "src/assets/pantalon_negro.png",
+            "src/assets/pantalon_negro2.png"
+        ],
+        "tipo": "Casual",
+        "color": [
+            "Negro"
+        ],
+        "talla": "S"
+    },
+    {
+        "id": 13,
+        "name": "Sudadera estampado porsche",
+        "price": 260,
+        "images": [
+            "src/assets/sudadera_crema.png",
+            "src/assets/sudadera_crema2.png"
+        ],
+        "tipo": "Sudaderas",
+        "color": [
+            "Crema"
+        ],
+        "talla": "G"
+    },
+    {
+        "id": 14,
+        "name": "Pans deportivo acampanado",
+        "price": 220,
+        "images": [
+            "src/assets/pans_acampanado_negro.png",
+            "src/assets/pans_acampanado_azul.png",
+            "src/assets/pans_acampanado_cafe.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Negro",
+            "Azul",
+            "Café"
+        ],
+        "talla": "S"
+    },
+    {
+        "id": 15,
+        "name": "Sudadera estampado porsche",
+        "price": 320,
+        "images": [
+            "src/assets/sudadera_porshche_negra0.png",
+            "src/assets/sudadera_porshche_negra.png"
+        ],
+        "tipo": "Sudaderas",
+        "color": [
+            "Negro"
+        ],
+        "talla": "G"
+    },
+    {
+        "id": 16,
+        "name": "Sudadera estampado skyline",
+        "price": 320,
+        "images": [
+            "src/assets/sudadera_skyline_blanco.png",
+            "src/assets/sudadera_skyline_blanco2.png"
+        ],
+        "tipo": "Sudaderas",
+        "color": [
+            "Blanco"
+        ],
+        "talla": "G"
+    }
+]

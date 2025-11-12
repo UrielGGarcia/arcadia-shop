@@ -1,0 +1,1 @@
+export type Filtro = "Default" | "Deportiva" | "Casual" | "Jerseys beisbol" | "Sudaderas" | "Invierno"
