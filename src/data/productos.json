@@ -528,8 +528,8 @@
             "Negro"
         ],
         "talla": "G"
-    }
-    ,{
+    },
+    {
         "id": 39,
         "name": "Playera Oversize Dewey",
         "price": 190,
@@ -572,7 +572,3 @@
         "talla": "G"
     }
 ]
-
-
-
-
