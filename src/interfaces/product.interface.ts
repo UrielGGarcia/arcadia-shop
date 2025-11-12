@@ -4,6 +4,7 @@ export interface Product {
   price: number;
   images: string[];
   tipo?: string;
-  talla?: string; 
+  talla?: string;
   color: string[];
+  estado: string;
 }

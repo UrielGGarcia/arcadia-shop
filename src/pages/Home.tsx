@@ -38,19 +38,19 @@ export const Home: React.FC = () => {
             </div>
 
 
-            <section className="flex flex-col md:flex-row items-center justify-between bg-white rounded-2xl p-8 mb-5 shadow-sm">
-                <div className="text-center md:text-left space-y-2 md:w-1/3 lg:w-1/3">
-                    <h2 className="text-3xl md:text-5xl font-bold text-gray-700">
+            <section className="flex flex-col lg:flex-row items-center justify-between bg-white rounded-2xl p-8 mb-5 shadow-sm">
+                <div className="text-center md:text-left space-y-2 md:w-1/3 lg:w-1/3 flex flex-col items-center lg:items-start">
+                    <h2 className="text-3xl md:text-5xl text-center lg:text-left font-bold text-gray-700 whitespace-nowrap">
                         Nueva actualización
                     </h2>
-                    <p className="text-gray-500 text-lg">Noviembre 2025</p>
+                    <p className="text-gray-500 text-lg text-center lg:text-left">Noviembre 2025</p>
                     <button
                         onClick={() => { setisHacer(!ishacer) }}
-                        className="hidden md:block animate-bounce border rounded-xl mt-4 text-lg  bg-gray-700 text-white font-bold p-1">
+                        className="hidden lg:block animate-bounce border rounded-xl mt-4 text-lg  bg-gray-700 text-white font-bold p-1 ">
                         Hacer mi pedido
                     </button>
                     {ishacer &&
-                        <section className="text-left text-lg hidden md:block lg:block">
+                        <section className="text-left text-lg hidden  lg:block">
                             Para hacer tu pedido, ofrecemos la experiencia de explorar nuestro catálogo, puedes agregar al carrito y hacer tu pedido directamente desde el catálogo
                         </section>
                     }
@@ -60,26 +60,26 @@ export const Home: React.FC = () => {
                     <img
                         src={prenda1}
                         alt="jersey1"
-                        className="w-30 md:w-80 drop-shadow-2xl hover:scale-105 transition-transform duration-300 -rotate-15 -mr-4"
+                        className="w-30 md:w-60 lg:w-80 drop-shadow-2xl hover:scale-105 transition-transform duration-300 -rotate-15 -mr-4"
                     />
                     <img
                         src={prenda2}
                         alt="jersey2"
-                        className="w-30 md:w-80 drop-shadow-2xl hover:scale-105 transition-transform duration-300"
+                        className="w-30 md:w-60 lg:w-80 drop-shadow-2xl hover:scale-105 transition-transform duration-300"
                     />
                     <img
                         src={prenda3}
                         alt="Njersey3"
-                        className="w-30 md:w-80 drop-shadow-2xl hover:scale-105 transition-transform duration-300 rotate-15 -ml-4"
+                        className="w-30 md:w-60 lg:w-80 drop-shadow-2xl hover:scale-105 transition-transform duration-300 rotate-15 -ml-4"
                     />
                 </div>
                 <button
                     onClick={() => { setisHacer(!ishacer) }}
-                    className="md:hidden lg:hidden animate-bounce border rounded-xl mt-4 text-lg  bg-gray-700 text-white font-bold p-1">
+                    className="lg:hidden animate-bounce border rounded-xl mt-4 text-lg  bg-gray-700 text-white font-bold p-1">
                     Hacer mi pedido
                 </button>
                 {ishacer &&
-                    <section className="text-center text-lg md:hidden lg:hidden">
+                    <section className="text-center text-lg lg:hidden">
                         Para hacer tu pedido, ofrecemos la experiencia de explorar nuestro catálogo, puedes agregar al carrito y hacer tu pedido directamente desde el catálogo
                     </section>
                 }

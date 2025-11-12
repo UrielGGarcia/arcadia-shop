@@ -60,17 +60,24 @@ export const ProductCard: React.FC<Props> = ({ product }) => {
               <button
                 key={color}
                 onClick={() => setSelectedColor(color)}
-                className={`border px-3 py-1 rounded-md text-sm transition ${
-                  selectedColor === color
-                    ? "bg-black text-white border-black"
-                    : "bg-white text-black border-gray-300 hover:border-black"
-                }`}
+                className={`border px-3 py-1 rounded-md text-sm transition ${selectedColor === color
+                  ? "bg-black text-white border-black"
+                  : "bg-white text-black border-gray-300 hover:border-black"
+                  }`}
               >
                 {color}
               </button>
             ))}
           </div>
         )}
+        {product.estado === "Disponible" &&
+          (<p className="text-green-800 text-xl">{product.estado}</p>)
+        }
+
+        {product.estado === "Solo por pedido" &&
+          (<p className="text-red-800 text-xl">{product.estado}</p>)
+        }
+
 
         {/* Mensaje de éxito */}
         {successMessage && (

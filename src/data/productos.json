@@ -11,7 +11,8 @@
         "color": [
             "Gris"
         ],
-        "talla": "XS/S"
+        "talla": "XS/S",
+        "estado": "Disponible"
     },
     {
         "id": 2,
@@ -19,18 +20,31 @@
         "price": 420,
         "images": [
             "/assets/chamarra_suave_crema.png",
-            "/assets/chamarra_suave_crema2.png",
+            "/assets/chamarra_suave_crema2.png"
+        ],
+        "tipo": "Invierno",
+        "color": [
+            "Crema"
+        ],
+        "talla": "S",
+        "estado": "Disponible"
+    },
+    {
+        "id": 3,
+        "name": "Chamarra de tela suave",
+        "price": 420,
+        "images": [
             "/assets/chamarra_suave_blnca.png"
         ],
         "tipo": "Invierno",
         "color": [
-            "Crema",
             "Blanco"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Chamarra lisa con felpa",
         "price": 420,
         "images": [
@@ -41,88 +55,166 @@
         "color": [
             "Negro"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Chamarra lisa",
         "price": 400,
         "images": [
-            "/assets/chamarra_lisa_blanca.png",
+            "/assets/chamarra_lisa_blanca.png"
+        ],
+        "tipo": "Invierno",
+        "color": [
+            "Blanco"
+        ],
+        "talla": "S",
+        "estado": "Disponible"
+    },
+    {
+        "id": 6,
+        "name": "Chamarra lisa",
+        "price": 400,
+        "images": [
             "/assets/chamarra_lisa_crema.png"
         ],
         "tipo": "Invierno",
         "color": [
-            "Blanco",
             "Crema"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 5,
+        "id": 7,
         "name": "Sudadera deportiva",
         "price": 280,
         "images": [
             "/assets/sudadera_alo_negra.png",
-            "/assets/sudaderadeportivaalo_negra.png",
+            "/assets/sudaderadeportivaalo_negra.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Negro"
+        ],
+        "talla": "S",
+        "estado": "Disponible"
+    },
+    {
+        "id": 8,
+        "name": "Sudadera deportiva",
+        "price": 280,
+        "images": [
             "/assets/suadera_devportiva_azul.png"
         ],
         "tipo": "Deportiva",
         "color": [
-            "Negro",
             "Azul marino"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 6,
+        "id": 9,
         "name": "Falda deportiva",
         "price": 230,
         "images": [
-            "/assets/falda_alo_azul_mg.png",
-            "/assets/falda_alo_blanca_mg.png",
-            "/assets/falda_alo_rosa_ch.png"
+            "/assets/falda_alo_azul_mg.png"
         ],
         "tipo": "Deportiva",
         "color": [
-            "Azul marino",
-            "Palo de rosa",
-            "Blanco"
+            "Azul marino"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 7,
+        "id": 10,
         "name": "Falda deportiva",
         "price": 230,
         "images": [
-            "/assets/falda_alo_negra_ch.png",
             "/assets/falda_alo_blanca_mg.png"
         ],
         "tipo": "Deportiva",
         "color": [
-            "Negra",
             "Blanco"
         ],
-        "talla": "M"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 8,
+        "id": 11,
+        "name": "Falda deportiva",
+        "price": 230,
+        "images": [
+            "/assets/falda_alo_rosa_ch.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Palo de rosa"
+        ],
+        "talla": "S",
+        "estado": "Disponible"
+    },
+    {
+        "id": 12,
+        "name": "Falda deportiva",
+        "price": 230,
+        "images": [
+            "/assets/falda_alo_negra_ch.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Negra"
+        ],
+        "talla": "M",
+        "estado": "Disponible"
+    },
+    {
+        "id": 13,
+        "name": "Falda deportiva",
+        "price": 230,
+        "images": [
+            "/assets/falda_alo_blanca_mg.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Blanco"
+        ],
+        "talla": "M",
+        "estado": "Disponible"
+    },
+    {
+        "id": 14,
         "name": "Blusa deportiva",
         "price": 150,
         "images": [
-            "/assets/blusa_deportiva_lila.png",
+            "/assets/blusa_deportiva_lila.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Lila claro"
+        ],
+        "talla": "S",
+        "estado": "Disponible"
+    },
+    {
+        "id": 15,
+        "name": "Blusa deportiva",
+        "price": 150,
+        "images": [
             "/assets/blusa_deportiva_azul.png"
         ],
         "tipo": "Deportiva",
         "color": [
-            "Lila claro",
             "Azul claro"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 9,
+        "id": 16,
         "name": "Blusa deportiva",
         "price": 150,
         "images": [
@@ -132,10 +224,11 @@
         "color": [
             "Rosa"
         ],
-        "talla": "M"
+        "talla": "M",
+        "estado": "Disponible"
     },
     {
-        "id": 10,
+        "id": 17,
         "name": "Chaleco puffer",
         "price": 200,
         "images": [
@@ -146,25 +239,39 @@
         "color": [
             "Negro"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 11,
+        "id": 18,
         "name": "Suéter delgado",
         "price": 220,
         "images": [
-            "/assets/sueter_rayado_negro_blanco.png",
+            "/assets/sueter_rayado_negro_blanco.png"
+        ],
+        "tipo": "Casual",
+        "color": [
+            "Negro/Blanco"
+        ],
+        "talla": "S",
+        "estado": "Disponible"
+    },
+    {
+        "id": 19,
+        "name": "Suéter delgado",
+        "price": 220,
+        "images": [
             "/assets/sueter_rayado_cafe_blanco.png"
         ],
         "tipo": "Casual",
         "color": [
-            "Negro/Blanco",
             "Café/Blanco"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 12,
+        "id": 20,
         "name": "Pantalón acampanado",
         "price": 380,
         "images": [
@@ -176,10 +283,11 @@
         "color": [
             "Negro"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 13,
+        "id": 21,
         "name": "Sudadera estampado porsche",
         "price": 260,
         "images": [
@@ -190,25 +298,39 @@
         "color": [
             "Crema"
         ],
-        "talla": "G"
+        "talla": "G",
+        "estado": "Disponible"
     },
     {
-        "id": 14,
-        "name": "Pans deportivo acampanado",
+        "id": 22,
+        "name": "Licra deportiva acampanada",
         "price": 220,
         "images": [
-            "/assets/pans_acampanado_negro.png",
+            "/assets/pans_acampanado_negro.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Negro"
+        ],
+        "talla": "S",
+        "estado": "Disponible"
+    },
+    {
+        "id": 23,
+        "name": "Licra deportiva acampanada",
+        "price": 220,
+        "images": [
             "/assets/pans_acampanado_azul.png"
         ],
         "tipo": "Deportiva",
         "color": [
-            "Negro",
             "Azul"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 15,
+        "id": 24,
         "name": "Sudadera estampado porsche",
         "price": 320,
         "images": [
@@ -219,10 +341,11 @@
         "color": [
             "Negro"
         ],
-        "talla": "G"
+        "talla": "G",
+        "estado": "Solo por pedido"
     },
     {
-        "id": 16,
+        "id": 25,
         "name": "Sudadera estampado skyline",
         "price": 320,
         "images": [
@@ -233,10 +356,11 @@
         "color": [
             "Blanco"
         ],
-        "talla": "G"
+        "talla": "G",
+        "estado": "Solo por pedido"
     },
     {
-        "id": 17,
+        "id": 26,
         "name": "Conjunto casual 'alo'",
         "price": 320,
         "images": [
@@ -246,10 +370,11 @@
         "color": [
             "Negro"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 18,
+        "id": 27,
         "name": "Jersey dodgers",
         "price": 275,
         "images": [
@@ -259,10 +384,11 @@
         "color": [
             "Negro/azul"
         ],
-        "talla": "S/M"
+        "talla": "S/M",
+        "estado": "Solo por pedido"
     },
     {
-        "id": 19,
+        "id": 28,
         "name": "Jersey Cowboys Dallas",
         "price": 275,
         "images": [
@@ -272,10 +398,11 @@
         "color": [
             "Blanco/Negro"
         ],
-        "talla": "S/M"
+        "talla": "S/M",
+        "estado": "Solo por pedido"
     },
     {
-        "id": 20,
+        "id": 29,
         "name": "Jersey Chicago White Sox",
         "price": 275,
         "images": [
@@ -285,10 +412,11 @@
         "color": [
             "Negro/Blanco"
         ],
-        "talla": "S/M"
+        "talla": "S/M",
+        "estado": "Disponible"
     },
     {
-        "id": 21,
+        "id": 30,
         "name": "Jersey Cowboys Dallas",
         "price": 275,
         "images": [
@@ -298,10 +426,11 @@
         "color": [
             "Azul/Blanco"
         ],
-        "talla": "M/G"
+        "talla": "M/G",
+        "estado": "Disponible"
     },
     {
-        "id": 22,
+        "id": 31,
         "name": "Jersey Dodgers",
         "price": 275,
         "images": [
@@ -311,10 +440,11 @@
         "color": [
             "Blanco/Azul"
         ],
-        "talla": "S/M"
+        "talla": "S/M",
+        "estado": "Disponible"
     },
     {
-        "id": 23,
+        "id": 32,
         "name": "Jersey Yankees",
         "price": 275,
         "images": [
@@ -324,10 +454,11 @@
         "color": [
             "Azul/Blanco"
         ],
-        "talla": "M/G"
+        "talla": "M/G",
+        "estado": "Disponible"
     },
     {
-        "id": 24,
+        "id": 33,
         "name": "Jersey Hello Kitty",
         "price": 275,
         "images": [
@@ -337,10 +468,11 @@
         "color": [
             "Rosa"
         ],
-        "talla": "S/M"
+        "talla": "S/M",
+        "estado": "Disponible"
     },
     {
-        "id": 25,
+        "id": 34,
         "name": "Short azul marino",
         "price": 85,
         "images": [
@@ -350,10 +482,11 @@
         "color": [
             "Azul marino"
         ],
-        "talla": "M/G"
+        "talla": "M/G",
+        "estado": "Solo por pedido"
     },
     {
-        "id": 26,
+        "id": 35,
         "name": "Camisa deportiva",
         "price": 150,
         "images": [
@@ -363,10 +496,11 @@
         "color": [
             "Negro"
         ],
-        "talla": "S/M"
+        "talla": "S/M",
+        "estado": "Disponible"
     },
     {
-        "id": 27,
+        "id": 36,
         "name": "Camisa deportiva",
         "price": 150,
         "images": [
@@ -376,10 +510,11 @@
         "color": [
             "Negro"
         ],
-        "talla": "S/M"
+        "talla": "S/M",
+        "estado": "Disponible"
     },
     {
-        "id": 28,
+        "id": 37,
         "name": "Camisa deportiva",
         "price": 150,
         "images": [
@@ -389,10 +524,11 @@
         "color": [
             "Blanco"
         ],
-        "talla": "S/M"
+        "talla": "S/M",
+        "estado": "Disponible"
     },
     {
-        "id": 29,
+        "id": 38,
         "name": "Shorts casuales",
         "price": 150,
         "images": [
@@ -402,10 +538,11 @@
         "color": [
             "Crema"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 30,
+        "id": 39,
         "name": "Shorts casuales",
         "price": 150,
         "images": [
@@ -415,10 +552,11 @@
         "color": [
             "Café"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 31,
+        "id": 40,
         "name": "Sudadera 'Hugo'",
         "price": 420,
         "images": [
@@ -429,10 +567,11 @@
         "color": [
             "Negro"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 32,
+        "id": 41,
         "name": "Sudadera 'STDW'",
         "price": 420,
         "images": [
@@ -443,25 +582,39 @@
         "color": [
             "Gris"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Solo por pedido"
     },
     {
-        "id": 33,
+        "id": 42,
         "name": "Vestido deportivo",
         "price": 350,
         "images": [
-            "/assets/vestido_deportivorojoalo.png",
+            "/assets/vestido_deportivorojoalo.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Rojo"
+        ],
+        "talla": "S",
+        "estado": "Disponible"
+    },
+    {
+        "id": 43,
+        "name": "Vestido deportivo",
+        "price": 350,
+        "images": [
             "/assets/vestidonegroalodeportivo.png"
         ],
         "tipo": "Deportiva",
         "color": [
-            "Rojo",
             "Negro"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 34,
+        "id": 44,
         "name": "Top deportivo",
         "price": 150,
         "images": [
@@ -471,10 +624,11 @@
         "color": [
             "Negro"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 35,
+        "id": 45,
         "name": "Camisa deportiva licra manga larga",
         "price": 165,
         "images": [
@@ -484,10 +638,11 @@
         "color": [
             "Negro"
         ],
-        "talla": "S/M"
+        "talla": "S/M",
+        "estado": "Solo por pedido"
     },
     {
-        "id": 36,
+        "id": 46,
         "name": "Conjunto casual",
         "price": 320,
         "images": [
@@ -497,10 +652,11 @@
         "color": [
             "Café"
         ],
-        "talla": "S"
+        "talla": "S",
+        "estado": "Disponible"
     },
     {
-        "id": 37,
+        "id": 47,
         "name": "Playera Oversize Bullet-Skyline",
         "price": 190,
         "images": [
@@ -511,10 +667,11 @@
         "color": [
             "Negro"
         ],
-        "talla": "G"
+        "talla": "G",
+        "estado": "Disponible"
     },
     {
-        "id": 38,
+        "id": 48,
         "name": "Playera Oversize Toyota",
         "price": 190,
         "images": [
@@ -525,10 +682,11 @@
         "color": [
             "Negro"
         ],
-        "talla": "G"
+        "talla": "G",
+        "estado": "Disponible"
     },
     {
-        "id": 39,
+        "id": 49,
         "name": "Playera Oversize Dewey",
         "price": 190,
         "images": [
@@ -539,10 +697,11 @@
         "color": [
             "Negro"
         ],
-        "talla": "M"
+        "talla": "M",
+        "estado": "Disponible"
     },
     {
-        "id": 40,
+        "id": 50,
         "name": "Playera Oversize Suki",
         "price": 190,
         "images": [
@@ -553,10 +712,11 @@
         "color": [
             "Negro"
         ],
-        "talla": "G"
+        "talla": "G",
+        "estado": "Solo por pedido"
     },
     {
-        "id": 41,
+        "id": 51,
         "name": "Playera Oversize Fast And Furious",
         "price": 190,
         "images": [
@@ -567,11 +727,12 @@
         "color": [
             "Negro"
         ],
-        "talla": "G"
+        "talla": "G",
+        "estado": "Disponible"
     },
     {
-        "id": 42,
-        "name": "Pans deportivo acampanado",
+        "id": 52,
+        "name": "Licra deportiva acampanada",
         "price": 220,
         "images": [
             "/assets/pans_acampanado_cafe.png"
@@ -580,9 +741,7 @@
         "color": [
             "Café"
         ],
-        "talla": "M"
+        "talla": "M",
+        "estado": "Disponible"
     }
 ]
-
-
-            
