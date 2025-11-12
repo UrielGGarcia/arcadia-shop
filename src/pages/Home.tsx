@@ -13,7 +13,7 @@ const products: Product[] = productData;
 export const Home: React.FC = () => {
     const [ishacer, setisHacer] = useState(false);
     const [isFiltro, setIsFiltro] = useState<Filtro>("Default")
-    const opciones: Filtro[] = ["Jerseys beisbol", "Casual", "Invierno", "Deportiva", "Sudaderas"]
+    const opciones: Filtro[] = ["Playeras Oversize","Jerseys beisbol", "Casual", "Invierno", "Deportiva", "Sudaderas"]
     return (
         <main className="min-h-screen bg-white">
             <div

@@ -1,17 +1,19 @@
-import { createContext, useState } from "react";
+import { createContext, useState, useEffect } from "react";
 import type { Product } from "../interfaces/product.interface";
 
 export interface CartItem extends Product {
   selectedColor?: string;
-  quantity?: number; // ✅ opcional para no romper addToCart
+  talla?: string;
+  quantity?: number;
 }
 
 interface CartContextProps {
   cart: CartItem[];
   addToCart: (item: CartItem) => void;
-  removeFromCart: (id: number) => void;
-  increaseQuantity: (id: number) => void;
-  decreaseQuantity: (id: number) => void;
+  removeFromCart: (id: number, color?: string, talla?: string) => void;
+  increaseQuantity: (id: number, color?: string, talla?: string) => void;
+  decreaseQuantity: (id: number, color?: string, talla?: string) => void;
+  clearCart: () => void;
 }
 
 export const CartContext = createContext<CartContextProps>({
@@ -20,19 +22,37 @@ export const CartContext = createContext<CartContextProps>({
   removeFromCart: () => {},
   increaseQuantity: () => {},
   decreaseQuantity: () => {},
+  clearCart: () => {},
 });
 
 export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [cart, setCart] = useState<CartItem[]>([]);
+  // ✅ Inicializamos directamente con lo que haya en localStorage (si existe)
+  const [cart, setCart] = useState<CartItem[]>(() => {
+    if (typeof window !== "undefined") {
+      const storedCart = localStorage.getItem("cart");
+      return storedCart ? JSON.parse(storedCart) : [];
+    }
+    return [];
+  });
+
+  // ✅ Cada vez que el carrito cambie, lo guardamos
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
 
   const addToCart = (item: CartItem) => {
     setCart((prev) => {
       const existing = prev.find(
-        (p) => p.id === item.id && p.selectedColor === item.selectedColor
+        (p) =>
+          p.id === item.id &&
+          p.selectedColor === item.selectedColor &&
+          p.talla === item.talla
       );
       if (existing) {
         return prev.map((p) =>
-          p.id === item.id && p.selectedColor === item.selectedColor
+          p.id === item.id &&
+          p.selectedColor === item.selectedColor &&
+          p.talla === item.talla
             ? { ...p, quantity: (p.quantity || 1) + 1 }
             : p
         );
@@ -41,23 +61,38 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     });
   };
 
-  const removeFromCart = (id: number) => {
-    setCart((prev) => prev.filter((p) => p.id !== id));
-  };
-
-  const increaseQuantity = (id: number) => {
+  const removeFromCart = (id: number, color?: string, talla?: string) => {
     setCart((prev) =>
-      prev.map((p) =>
-        p.id === id ? { ...p, quantity: (p.quantity || 1) + 1 } : p
+      prev.filter(
+        (p) =>
+          !(
+            p.id === id &&
+            p.selectedColor === color &&
+            p.talla === talla
+          )
       )
     );
   };
 
-  const decreaseQuantity = (id: number) => {
+  const increaseQuantity = (id: number, color?: string, talla?: string) => {
+    setCart((prev) =>
+      prev.map((p) =>
+        p.id === id &&
+        p.selectedColor === color &&
+        p.talla === talla
+          ? { ...p, quantity: (p.quantity || 1) + 1 }
+          : p
+      )
+    );
+  };
+
+  const decreaseQuantity = (id: number, color?: string, talla?: string) => {
     setCart((prev) =>
       prev
         .map((p) =>
-          p.id === id
+          p.id === id &&
+          p.selectedColor === color &&
+          p.talla === talla
             ? { ...p, quantity: Math.max((p.quantity || 1) - 1, 1) }
             : p
         )
@@ -65,9 +100,21 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     );
   };
 
+  const clearCart = () => {
+    setCart([]);
+    localStorage.removeItem("cart");
+  };
+
   return (
     <CartContext.Provider
-      value={{ cart, addToCart, removeFromCart, increaseQuantity, decreaseQuantity }}
+      value={{
+        cart,
+        addToCart,
+        removeFromCart,
+        increaseQuantity,
+        decreaseQuantity,
+        clearCart,
+      }}
     >
       {children}
     </CartContext.Provider>

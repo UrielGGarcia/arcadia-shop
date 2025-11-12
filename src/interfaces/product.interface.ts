@@ -2,8 +2,8 @@ export interface Product {
   id: number;
   name: string;
   price: number;
-  images: string[]; // 👈 ahora es arreglo
+  images: string[];
   tipo?: string;
-  talla: string;
+  talla?: string; 
   color: string[];
 }
