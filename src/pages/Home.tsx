@@ -13,7 +13,7 @@ const products: Product[] = productData;
 export const Home: React.FC = () => {
     const [ishacer, setisHacer] = useState(false);
     const [isFiltro, setIsFiltro] = useState<Filtro>("Default")
-    const opciones: Filtro[] = ["Playeras Oversize","Jerseys beisbol", "Casual", "Invierno", "Deportiva", "Sudaderas"]
+    const opciones: Filtro[] = ["Playeras Oversize", "Jerseys beisbol", "Casual", "Invierno", "Deportiva", "Sudaderas"]
     return (
         <main className="min-h-screen bg-white">
             <div
@@ -80,7 +80,7 @@ export const Home: React.FC = () => {
                 </button>
                 {ishacer &&
                     <section className="text-center text-lg md:hidden lg:hidden">
-                        Para hacer tu pedido, ofrecemos la experiencia de explorar nuestro catalogo, puedes agregar al carrito y hacer tu pedido directamente desde el catalógo
+                        Para hacer tu pedido, ofrecemos la experiencia de explorar nuestro catálogo, puedes agregar al carrito y hacer tu pedido directamente desde el catálogo
                     </section>
                 }
             </section>

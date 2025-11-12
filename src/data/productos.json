@@ -132,11 +132,11 @@
         "color": [
             "Rosa"
         ],
-        "talla": "MG"
+        "talla": "M"
     },
     {
         "id": 10,
-        "name": "Chaleco puffer color negro",
+        "name": "Chaleco puffer",
         "price": 200,
         "images": [
             "/assets/chaleco_negro.png",
@@ -165,7 +165,7 @@
     },
     {
         "id": 12,
-        "name": "Pantalón negro acampanado",
+        "name": "Pantalón acampanado",
         "price": 380,
         "images": [
             "/assets/pantalon_negro0.png",
@@ -198,14 +198,12 @@
         "price": 220,
         "images": [
             "/assets/pans_acampanado_negro.png",
-            "/assets/pans_acampanado_azul.png",
-            "/assets/pans_acampanado_cafe.png"
+            "/assets/pans_acampanado_azul.png"
         ],
         "tipo": "Deportiva",
         "color": [
             "Negro",
-            "Azul",
-            "Café"
+            "Azul"
         ],
         "talla": "S"
     },
@@ -541,7 +539,7 @@
         "color": [
             "Negro"
         ],
-        "talla": "G"
+        "talla": "M"
     },
     {
         "id": 40,
@@ -570,5 +568,21 @@
             "Negro"
         ],
         "talla": "G"
+    },
+    {
+        "id": 42,
+        "name": "Pans deportivo acampanado",
+        "price": 220,
+        "images": [
+            "/assets/pans_acampanado_cafe.png"
+        ],
+        "tipo": "Deportiva",
+        "color": [
+            "Café"
+        ],
+        "talla": "M"
     }
 ]
+
+
+            
