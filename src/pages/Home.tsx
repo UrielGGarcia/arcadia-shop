@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { ProductGrid } from "../components/ProductGrid";
 import type { Product } from "../interfaces/product.interface";
 import productData from '../data/productos.json'
-import prenda1 from '../assets/jersey_yankees_azul_blanco.png'
-import prenda2 from '../assets/jersey_dodgers_blanco_azul.png'
-import prenda3 from '../assets/jersey_cowboys_azul_blanco.png'
+import prenda1 from '/assets/jersey_yankees_azul_blanco.png'
+import prenda2 from '/assets/jersey_dodgers_blanco_azul.png'
+import prenda3 from '/assets/jersey_cowboys_azul_blanco.png'
 import type { Filtro } from "../interfaces/filter.interface";
 
 
